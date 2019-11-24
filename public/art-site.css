@@ -1,0 +1,178 @@
+
+.navbar {
+    background-color: Grey;
+    width: 100%;
+    position : center;
+    font-size:5em;
+    color: white;
+    font-family: Roboto;
+    height: 1.65em;
+	  position: -webkit-sticky;
+	  position: sticky;
+	  top: 0;
+    opacity: 0.85;
+    border-style: solid;
+    border-color: black;
+    font-weight: bold;
+}
+
+.logo{
+  float: left;
+  height: 2.1em;
+  width: 4em;
+  padding: 0px;
+}
+
+.basket{
+float: right;
+height: 1.5em;
+padding: 0.1em;
+padding-top: 0.3em;
+width: 1em;
+height: 1em;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+
+.new{
+font-family: Verdana;
+color: black;
+font-size: 2em;
+}
+
+.new1{
+font-family: Verdana;
+color: grey;
+font-size: .5em;
+}
+
+.creative{
+  font-family: Verdana;
+  color: violet;
+  font-size: 1em;
+}
+
+.new2{
+font-family: Verdana;
+color: grey;
+font-size: .5em;
+
+}
+
+.new3{
+font-family: Verdana;
+color: black;
+font-size: 3em;
+}
+
+.new4{
+font-family: Verdana;
+color: grey;
+font-size: 1em;
+}
+
+
+
+
+body{
+background-color: white;
+text-align: center;
+font-family: Roboto;
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 70%;
+    max-height: 100%;
+  padding: 0 2px;
+}
+
+.column img {
+  margin-top: 15px;
+  max-width: 70%;
+  max-height: 100%;
+  vertical-align: middle;
+  border-style: solid;
+  border-color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 70%;
+    max-height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 70%;
+    max-height: 100%;
+  }
+}
+
+.p1:hover{
+opacity: 0.5;
+}
+
+.logo:hover{
+opacity: 0.5;
+}
+
+.basket:hover{
+opacity: 0.5;
+}
+
+.user:hover{
+opacity: 0.5;
+}
+
+.main{
+text-align: left;
+float: center;
+font-family: Roboto;
+}
+
+.txt1{
+float:center;
+padding: 2em;
+}
+
+.footer{
+color:black;
+background-color: white;
+text-align: center;
+font-family:Roboto;
+font-size:2em;
+width:100%;
+opacity: 0.5;
+padding: 10px;
+margin: 0 auto;
+display: block;
+position: relative;
+top:10em;
+visibility: visible;
+}
