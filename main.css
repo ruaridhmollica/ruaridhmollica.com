@@ -12,7 +12,7 @@
   }
 
 .navbar {
-    background-color: Grey !important;
+    background-color: rgb(97, 96, 96) !important;
     width: 100% !important;
     position : center !important;
     font-size:5em !important;
@@ -26,16 +26,36 @@
     border-style: solid !important;
     border-color: black !important;
     font-weight: bold !important;
+    z-index: 900;
+}
+
+.navbar2 {
+  background-color: rgb(97, 96, 96) !important;
+  width: 100% !important;
+  height: 6em !important;
+  position : center !important;
+  font-size: 8em !important;
+  color: white !important;
+  font-family: Roboto !important;
+  height: 1.65em !important;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0 !important;
+  opacity: 0.85 !important;
+  border-style: solid !important;
+  border-color: black !important;
+  font-weight: bold !important;
+  z-index: 900;
 }
 
 a {
   color: black !important;
-  text-decoration: none; /* no underline */
+  text-decoration: none !important; /* no underline */
 }
 
 a:hover {
-  color: blue !important;
-  text-decoration: none; /* no underline */
+  color: grey !important;
+  text-decoration: none !important; /* no underline */
 }
 
 .logo{
@@ -43,6 +63,15 @@ a:hover {
   height: 2.1em !important;
   width: 4em !important;
   padding: 0px !important;
+  z-index: 900;
+}
+
+.logo2{
+  float: center !important;
+  height: 2.5em !important;
+  width: 4.5em !important;
+  padding: 0px !important;
+  z-index: 900;
 }
 
 .basket {
@@ -125,22 +154,6 @@ font-family: Verdana !important;
   padding: 0 2px !important;
 }
 
-
-.column {
-  flex: 25% !important;
-  max-width: 70% !important;
-    max-height: 100% !important;
-  padding: 0 2px !important;
-}
-
-.column img {
-  margin-top: 15px !important;
-  max-width: 70% !important;
-  max-height: 100% !important;
-  vertical-align: middle !important;
-  border-style: solid !important;
-  border-color: black !important!important;
-}
 
 @media screen and (max-width: 800px) {
   .column {
