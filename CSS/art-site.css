@@ -1,178 +1,178 @@
 
 .navbar {
-    background-color: Grey;
-    width: 100%;
-    position : center;
-    font-size:5em;
-    color: white;
-    font-family: Roboto;
-    height: 1.65em;
-	  position: -webkit-sticky;
-	  position: sticky;
-	  top: 0;
-    opacity: 0.85;
-    border-style: solid;
-    border-color: black;
-    font-weight: bold;
+    background-color: Grey !important;
+    width: 100% !important;
+    position : center !important;
+    font-size:5em !important;
+    color: white !important;
+    font-family: Roboto !important;
+    height: 1.65em !important;
+	  position: -webkit-sticky !important;
+	  position: sticky !important;
+	  top: 0 !important;
+    opacity: 0.85 !important;
+    border-style: solid !important;
+    border-color: black !important;
+    font-weight: bold !important;
 }
 
 .logo{
-  float: left;
-  height: 2.1em;
-  width: 4em;
-  padding: 0px;
+  float: left !important;
+  height: 2.1em !important;
+  width: 4em !important;
+  padding: 0px !important;
 }
 
-.basket{
-float: right;
-height: 1.5em;
-padding: 0.1em;
-padding-top: 0.3em;
-width: 1em;
-height: 1em;
+.basket {
+float: right !important;
+height: 1.5em !important;
+padding: 0.1em !important;
+padding-top: 0.3em !important;
+width: 1em !important;
+height: 1em !important;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: block !important;
 }
 #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
+    position: fixed !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    z-index: -100 !important;
 }
 
 
 .new{
-font-family: Verdana;
-color: black;
-font-size: 2em;
+font-family: Verdana !important;
+color: black !important;
+font-size: 2em !important;
 }
 
 .new1{
-font-family: Verdana;
-color: grey;
-font-size: .5em;
+font-family: Verdana !important;
+color: grey !important;
+font-size: .5em !important;
 }
 
 .creative{
-  font-family: Verdana;
-  color: violet;
-  font-size: 1em;
+  font-family: Verdana !important;
+  color: violet !important;
+  font-size: 1em !important;
 }
 
 .new2{
-font-family: Verdana;
-color: grey;
-font-size: .5em;
+font-family: Verdana !important;
+color: grey !important;
+font-size: .5em !important;
 
 }
 
 .new3{
-font-family: Verdana;
-color: black;
-font-size: 3em;
+font-family: Verdana !important;
+color: black !important;
+font-size: 3em !important;
 }
 
 .new4{
-font-family: Verdana;
-color: grey;
-font-size: 1em;
+font-family: Verdana !important;
+color: grey !important;
+font-size: 1em !important;
 }
 
 
 
 
 body{
-background-color: white;
-text-align: center;
-font-family: Roboto;
+background-color: white !important;
+text-align: center !important;
+font-family: Roboto !important;
 
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 2px;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  padding: 0 2px !important;
 }
 
 
 .column {
-  flex: 25%;
-  max-width: 70%;
-    max-height: 100%;
-  padding: 0 2px;
+  flex: 25% !important;
+  max-width: 70% !important;
+    max-height: 100% !important;
+  padding: 0 2px !important;
 }
 
 .column img {
-  margin-top: 15px;
-  max-width: 70%;
-  max-height: 100%;
-  vertical-align: middle;
-  border-style: solid;
-  border-color: black;
+  margin-top: 15px !important;
+  max-width: 70% !important;
+  max-height: 100% !important;
+  vertical-align: middle !important;
+  border-style: solid !important;
+  border-color: black !important!important;
 }
 
 @media screen and (max-width: 800px) {
   .column {
-    flex: 50%;
-    max-width: 70%;
-    max-height: 100%;
+    flex: 50%!important;
+    max-width: 70%!important;
+    max-height: 100%!important;
   }
 }
 
 
 @media screen and (max-width: 600px) {
   .column {
-    flex: 100%;
-    max-width: 70%;
-    max-height: 100%;
+    flex: 100%!important;
+    max-width: 70%!important;
+    max-height: 100%!important;
   }
 }
 
 .p1:hover{
-opacity: 0.5;
+opacity: 0.5!important;
 }
 
 .logo:hover{
-opacity: 0.5;
+opacity: 0.5!important;
 }
 
 .basket:hover{
-opacity: 0.5;
+opacity: 0.5!important;
 }
 
 .user:hover{
-opacity: 0.5;
+opacity: 0.5!important;
 }
 
 .main{
-text-align: left;
-float: center;
-font-family: Roboto;
+text-align: left!important;
+float: center!important;
+font-family: Roboto!important;
 }
 
 .txt1{
-float:center;
-padding: 2em;
+float:center!important;
+padding: 2em!important;
 }
 
 .footer{
-color:black;
-background-color: white;
-text-align: center;
-font-family:Roboto;
-font-size:2em;
-width:100%;
-opacity: 0.5;
-padding: 10px;
-margin: 0 auto;
-display: block;
-position: relative;
-top:10em;
-visibility: visible;
+color:black!important;
+background-color: white!important;
+text-align: center!important;
+font-family:Roboto!important;
+font-size:2em!important;
+width:100%!important;
+opacity: 0.5!important;
+padding: 10px!important;
+margin: 0 auto!important;
+display: block!important;
+position: relative!important;
+top:10em!important;
+visibility: visible!important;
 }
