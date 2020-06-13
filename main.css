@@ -64,6 +64,10 @@ a:hover {
   z-index: 900;
 }
 
+.logo:hover {
+  
+}
+
 .logo2{
   float: center !important;
   height: 2.5em !important;
