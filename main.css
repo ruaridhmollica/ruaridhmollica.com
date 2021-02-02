@@ -1,5 +1,5 @@
 
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
   .mobhide {
     display: none !important;
   }
@@ -9,6 +9,10 @@
     .deskhide {
       display: none !important;
     }
+  }*/
+
+  body{
+    background-color: #333231;
   }
 
 .navbar {
