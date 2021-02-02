@@ -11,8 +11,12 @@
     }
   }
 
+  html{
+    background-color: #464443;
+  }
+
   body{
-    background-color: #333231;
+    background-color: #464443;
   }
 
 .navbar {
